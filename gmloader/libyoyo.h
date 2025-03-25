@@ -276,7 +276,6 @@ extern uintptr_t *New_Room;
 extern void **g_nYYCode;
 extern void **g_pGameFileBuffer;
 extern void **g_ppYYStackTrace;
-extern int *Extension_Main_number;
 
 extern void patch_libyoyo(struct so_module *mod);
 extern void patch_input(struct so_module *mod);
